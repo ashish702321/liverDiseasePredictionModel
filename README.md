@@ -1,43 +1,41 @@
-# Liver Disease Prediction
+# Liver Disease Prediction Model
 
-A Python project to predict liver disease using machine learning algorithms on a dataset of 583 patients.
+This project uses machine learning to predict whether a person has liver disease based on medical features such as age, gender, and blood test results.
 
-## Overview
+## 🧠 Model Overview
 
-This project applies the following ML algorithms:
+The model is trained using the **Indian Liver Patient Dataset (ILPD)** and applies classification algorithms like:
 
-- Random Forest
-- Decision Tree
+- Logistic Regression  
+- Random Forest  
+- Support Vector Machine (SVM)  
 - K-Nearest Neighbors (KNN)
-- Logistic Regression
 
-**Performance:**
+## 📊 Features Used
 
-- Accuracy: **75.44%**
-- F1-score: **84.78%**
+- Age  
+- Gender  
+- Total Bilirubin  
+- Direct Bilirubin  
+- Alkaline Phosphotase  
+- Alamine Aminotransferase (ALT)  
+- Aspartate Aminotransferase (AST)  
+- Total Proteins  
+- Albumin  
+- Albumin and Globulin Ratio
 
-## Dataset
+## 🛠️ Technologies
 
-- 583 patient records
-- Features include clinical and demographic data
+- Python  
+- NumPy, Pandas  
+- Scikit-learn  
+- Matplotlib / Seaborn (for visualization)  
+- Jupyter Notebook / VS Code
 
-## Usage
+## 📈 Accuracy
 
-1. Clone the repository.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the main script:
-   ```bash
-   python main.py
-   ```
+Achieved accuracy: **(insert accuracy here)%**  
+Best performing model: **(insert best model name here)**
 
-## Results
+## 📁 Project Structure
 
-- Random Forest and Logistic Regression provided the best results.
-- The model can help in early detection of liver disease.
-
-## License
-
-This project is licensed under the MIT License.
